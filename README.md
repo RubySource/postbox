@@ -1,4 +1,4 @@
 postbox
 =======
 
-Code to go with RubySource article on Letter Opener
+This application accompanies the code in [Preview Your Rails Mail with Letter Opener](http://rubysource.com/preview-your-rails-mail-with-letter-opener)
