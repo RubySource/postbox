@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Notification email.</h1>
+    <h2><%= @notification.headline %></h2>
+	<p>
+		<%= @notification.content %>
+	</p>	
+
+	<p>
+      This email was sent out to you, because you are subscribed to the steamengine-mailing-list.
+      If you want to unscribscribe, please use this url: <%= @url %>.
+    </p>
+
+
+  </body>
+</html>
